@@ -5,6 +5,9 @@
             "eu-west-1": {
                 "AMI": "ami-7abd0209"
             },
+            "eu-west-2": {
+                "AMI": "ami-bb373ddf"
+            },
             "us-west-1": {
                 "AMI": "ami-af4333cf"
             },
