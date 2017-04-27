@@ -1,4 +1,4 @@
-# Chef Server Platform Extension
+﻿# Chef Server Platform Extension
 This platform extension spins up a blank Chef server with Chef 12 installed making use of the AWS-type platform extension. 
 
 The following additional Chef features are free for up to 25 nodes:
@@ -35,3 +35,4 @@ The chef server is designed to be used alongside the [ADOP chef cartridge](https
 * Organisation URL: This will be in the form of ``` https://EC2-Service-Extension-<extension-number>.<ADOP-public-IP>.xip.io/organizations/devops ```
 * SSH key (pem file) for the Chef server user: This can be obtained by accessing the user page from a URL such as ``` https://EC2-Service-Extension-<extension-number>.<ADOP-public-IP>.xip.io/users/admin ``` and then resetting the private key and taking note of it
 * SSH key (pem file) for the Chef server validator: This can be accessed by accessing the organisation URL from ``` https://EC2-Service-Extension-<extension-number>.<ADOP-public-IP>.xip.io/organizations/devops ``` and resetting the validation key by clicking on the cog next to your organisation
+* Update Group1
